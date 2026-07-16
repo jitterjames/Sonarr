@@ -41,6 +41,7 @@ jobs:
         run: >-
           dotnet test src/NzbDrone.Core.Test/Sonarr.Core.Test.csproj
           --configuration Release
+          --property:RunAnalyzers=false
           --filter FullyQualifiedName~UnairedEpisodeSpecificationFixture
 
       - name: Build Intel/AMD backend

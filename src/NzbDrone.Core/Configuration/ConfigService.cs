@@ -124,6 +124,13 @@ namespace NzbDrone.Core.Configuration
             set { SetValue("MinimumAge", value); }
         }
 
+        public bool RejectUnairedEpisodes
+        {
+            get { return GetValueBoolean("RejectUnairedEpisodes", false); }
+
+            set { SetValue("RejectUnairedEpisodes", value); }
+        }
+
         public ProperDownloadTypes DownloadPropersAndRepacks
         {
             get { return GetValueEnum("DownloadPropersAndRepacks", ProperDownloadTypes.PreferAndUpgrade); }

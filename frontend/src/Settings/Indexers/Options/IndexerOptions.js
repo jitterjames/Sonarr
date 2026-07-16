@@ -79,6 +79,18 @@ function IndexerOptions(props) {
               />
             </FormGroup>
 
+            <FormGroup>
+              <FormLabel>{translate('RejectUnairedEpisodes')}</FormLabel>
+
+              <FormInputGroup
+                type={inputTypes.CHECK}
+                name="rejectUnairedEpisodes"
+                helpText={translate('RejectUnairedEpisodesHelpText')}
+                onChange={onInputChange}
+                {...settings.rejectUnairedEpisodes}
+              />
+            </FormGroup>
+
             <FormGroup
               advancedSettings={advancedSettings}
               isAdvanced={true}

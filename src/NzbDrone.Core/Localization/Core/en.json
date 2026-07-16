@@ -1191,6 +1191,8 @@
   "Min": "Min",
   "MinimumAge": "Minimum Age",
   "MinimumAgeHelpText": "Usenet only: Minimum age in minutes of NZBs before they are grabbed. Use this to give new releases time to propagate to your usenet provider.",
+  "RejectUnairedEpisodes": "Reject Releases Before Air Date",
+  "RejectUnairedEpisodesHelpText": "Prevent RSS grabs and searches from downloading releases containing episodes that have not aired yet. Episodes without a known air date are allowed.",
   "MinimumCustomFormatScore": "Minimum Custom Format Score",
   "MinimumCustomFormatScoreHelpText": "Minimum custom format score allowed to download",
   "MinimumCustomFormatScoreIncrement": "Minimum Custom Format Score Increment",
